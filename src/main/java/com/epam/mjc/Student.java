@@ -16,9 +16,9 @@ public enum Student {
   PETR(9, "Petr", 58),
   ARTUR(10, "Artur", 26);
 
-  private long id;
-  private String name;
-  private int age;
+  private final long id;
+  private final String name;
+  private final int age;
 
   Student(long id, String name, int age) {
     this.id = id;
